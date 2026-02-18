@@ -1,2 +1,3 @@
 # conspect
-## [ Конспект ](/konsp.md)
+## https://gitflic.ru/project/mathros/mfua
+# Я вайбкодер
