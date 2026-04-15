@@ -1,5 +1,5 @@
 markdown
-# Командная строка Windows.
+# Командная строка Windows
 
 **Тема:** Работа в командной строке (CMD) с процессами и каталогами
 
@@ -17,16 +17,18 @@ markdown
     ```cmd
     C:\Windows> start notepad.exe 
     ```
-## [ Изображение запуска ] (./start_notepad.png)
+    ![Изображение запуска](./start_notepad.png)
+
 2.  **Проверка активных процессов:**
     С помощью команды `tasklist` было подтверждено наличие процесса `notepad.exe` в оперативной памяти.
-    [ Изображение наличие процесса в tasklist ] (./notepad_in_tasklist.png)
+    ![Изображение наличие процесса в tasklist](./notepad_in_tasklist.png)
+
 3.  **Завершение процесса:**
     Приложение было закрыто через консоль командой:
     ```cmd
     C:\Windows> taskkill /IM notepad.exe
     ```
-## [ Изображение завершения процесса notepad.exe ] (./notepad-kil.png)
+    ![Изображение завершения процесса notepad.exe](./notepad-kil.png)
 
 ## 3. Самостоятельный поиск и запуск WordPad
 Для поиска команды запуска WordPad был проанализирован каталог Windows. Установлено, что за запуск редактора отвечает файл `write.exe`.
@@ -34,4 +36,3 @@ markdown
 **Выполнение:**
 ```cmd
 C:\Windows> start write.exe
-## [ Изображение запуска wordpad ] (./start-wordpad.png)
