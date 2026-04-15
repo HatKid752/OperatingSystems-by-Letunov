@@ -17,7 +17,7 @@ markdown
     ```cmd
     C:\Windows> start notepad.exe 
     ```
-    [ Изображение запуска ] (./start_notepad.png)
+## [ Изображение запуска ] (./start_notepad.png)
 2.  **Проверка активных процессов:**
     С помощью команды `tasklist` было подтверждено наличие процесса `notepad.exe` в оперативной памяти.
     [ Изображение наличие процесса в tasklist ] (./notepad_in_tasklist.png)
@@ -26,7 +26,7 @@ markdown
     ```cmd
     C:\Windows> taskkill /IM notepad.exe
     ```
-    [ Изображение завершения процесса notepad.exe ] (./notepad-kil.png)
+## [ Изображение завершения процесса notepad.exe ] (./notepad-kil.png)
 
 ## 3. Самостоятельный поиск и запуск WordPad
 Для поиска команды запуска WordPad был проанализирован каталог Windows. Установлено, что за запуск редактора отвечает файл `write.exe`.
@@ -34,4 +34,4 @@ markdown
 **Выполнение:**
 ```cmd
 C:\Windows> start write.exe
-[ Изображение запуска wordpad ] (./start-wordpad.png)
+## [ Изображение запуска wordpad ] (./start-wordpad.png)
