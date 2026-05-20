@@ -86,7 +86,7 @@ pstree -p
 ### Поиск процессов: `pgrep`
 Находит PID (идентификатор) процесса по его имени.
 ```bash
-pgrep -l nginx
+pgrep -l python
 ```
 
 ---
@@ -123,15 +123,26 @@ uptime
 ```bash
 kill 1234
 ```
+![](proc16.png)
+
 *Если процесс не реагирует (принудительное завершение):*
 ```bash
 kill -9 1234
 ```
 
+![](proc17.png)
+### Команда `killall`
+Завершает сразу группу процессов
+
+```bash
+killall sleep
+```
+![](proc19.png)
+
 ### Команда `pkill`
 Завершает процессы по их **имени**, а не по PID.
 ```bash
-pkill -9 nginx
+pkill -9 ping
 ```
 
-[def]: proc1.png
+![](proc18.png)
